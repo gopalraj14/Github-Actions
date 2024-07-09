@@ -1,0 +1,10 @@
+name: Gohell
+on: push
+
+jobs:
+  hell:
+  runs-on: ubuntu-latest
+
+  steps:
+    -  name: GR 
+       run: echo "rworl"
