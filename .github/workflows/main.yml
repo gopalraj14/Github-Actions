@@ -3,8 +3,8 @@ on: push
 
 jobs:
   hell:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    -  name: GR 
-       run: echo "rworl"
+    steps:
+      - name: GR
+        run: echo "rworl"
