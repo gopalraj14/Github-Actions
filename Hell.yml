@@ -1,1 +1,12 @@
+name: Hello
 
+on: push
+
+jobs:
+  Hell:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print hel
+      run: echo "hell wo"
+      
