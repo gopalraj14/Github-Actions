@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create directory
-        run: mkdir -p path/to/your/folder
+        run: mkdir -p https://github.com/gopalraj14/Github-Actions/blob/main
 
       - name: Verify directory creation
-        run: ls -la path/to/your
+        run: ls -la https://github.com/gopalraj14/Github-Actions/blob/main
