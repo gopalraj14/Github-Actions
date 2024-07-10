@@ -1,0 +1,16 @@
+name: Gohell
+on: push
+
+jobs:
+  hell:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create directory
+        run: mkdir -p path/to/your/folder
+
+      - name: Verify directory creation
+        run: ls -la path/to/your
